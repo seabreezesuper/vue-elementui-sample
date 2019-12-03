@@ -1,0 +1,11 @@
+1.打开Windows PowerShell命令行窗口。
+
+2.进到App.vue所在目录
+
+例：cd "E:\vue-test\vue命令行开发\001. 快速原型开发"
+
+3.执行命令：vue serve App.vue
+
+4.在浏览器上访问：http://localhost:8080/
+
+看到“Hello!”字样即为成功。

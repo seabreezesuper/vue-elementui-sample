@@ -1,0 +1,30 @@
+1.安装Node.js。（自带npm工具。）
+
+链接：https://nodejs.org/dist/v12.13.1/node-v12.13.1-x64.msi
+
+2.安装webpack。
+
+命令：npm install --save-dev webpack
+
+3.安装vue。
+
+命令：npm install vue
+
+4.安装@vue-cli
+
+命令：npm install -g @vue/cli
+
+5.设置镜像库。（默认库被墙，访问很慢。）
+命令：npm config set registry https://registry.npm.taobao.org --global
+
+6.设置代理服务器。（公司内部有代理服务器才需要设）
+
+命令：npm config set proxy http://172.16.73.43:8080
+
+7.安装element-ui。（这个可以选择安装。）
+element-ui只是饿了么团队用vue框架开发的一套组件模板，比较流行。
+
+命令：npm i element-ui -S
+
+8.安装yarn。（这个使用element-ui的starter模板时需要。）
+命令：npm install -g yarn 
